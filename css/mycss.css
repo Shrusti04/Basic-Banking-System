@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    margin-top: 20px;
+    font-size: 40px;
+    background: linear-gradient(rgba(0.5,0.2,0.1,0),rgba(1,0.1,0.2));
+    box-shadow: 15px 5px 5px 5px black;
+}
+
+h1{
+    font-family :Calisto MT;
+    color:whitesmoke;
+    background: linear-gradient(skyblue,rgba(0,0,0));
+    box-shadow: 5px 5px 10px 5px black;
+    font-size: 50px;
+}
+
+img{
+    height: 180px;
+    width:250px;
+    align-items: center;
+    text-align: center;
+
+}
+
+h2{
+    font-family: Calisto MT;
+    color:white;
+    text-decoration-style: wavy;
+    font-size: 35px;
+}
+
+nav {
+	text-align: center;
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+    float:right;
+}
+
+nav ul{
+    align-items:center;
+    list-style-type: none;
+    margin-top: 100px;
+}
+
+nav ul li {
+    display:inline-grid;
+    margin: 2px;
+    position:center;
+}
+
+nav ul li a {
+    background-color:black;
+	color: skyblue; 
+    text-align: center;
+	border-radius:10px;
+	padding: 15px;
+	margin: 5px;
+	font-size:18px; 
+}
+
+.bg-text {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6));
+    box-shadow: 5px 5px 10px 5px black;  
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    padding: 55px;
+    text-align:center;
+}

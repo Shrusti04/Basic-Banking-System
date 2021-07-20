@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Banking System</title>
+	<link rel="stylesheet" href="css/mycss1.css">
+    <script type ="text/javascript"></script>
+</head>    
+<body>
+    <header>
+        <div class = "main">   
+            <nav>
+                <div class="logo">
+                    <h2>Banking System</h2>
+                </div>    
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="view.php">View All Customers</a></li>
+                    <li><a href="transfers.html" class = "active">Transfer Money</a></li>
+                    <li><a href="history.php">Transaction History</a></li>
+                </ul>    
+		    </nav> 
+        </div>
+    </header>
+        <form action="insert.php" method="POST">
+            <div class="wrapper">
+                <table>
+                    <tr>
+                        <td>Sender's Name :</td>
+                        <td><input type="text" name="sname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Sender's Cust Id :</td>
+                        <td><input type="number" name="sid" required></td>
+                    </tr>
+                    <tr>
+                        <td>Reciever's Name :</td>
+                        <td><input type="text" name="rname" required> </td>
+                    </tr>
+                    <tr>
+                        <td>Reciever's Cust Id :</td>
+                        <td><input type="number" name="rid" required></td>
+                    </tr>
+                    <tr>
+                        <td>Amount :</td>
+                        <td><input type="number" name="amt" required> </td>
+                    </tr>
+                    <tr>
+                        <td><br><input type="submit" value="Transfer"></td>
+                    </tr>
+                 </table>
+            </div>
+        </form>    
+</body>
+</html>   
